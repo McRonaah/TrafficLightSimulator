@@ -1,0 +1,45 @@
+Traffic Light Simulator Assignment (Assignment 2)
+
+Objective:
+Analyze and explain the TrafficLightSimulator program, focusing on the control structures used and their role in solving a real-world problem.
+
+Questions:
+
+1. Program Overview:
+    a) Describe the overall purpose of this program.
+    b) Explain how this program simulates a 24-hour period. What control structure is used for this, and why is it appropriate?
+
+2. Time and Traffic Condition Handling:
+    a) How does the program convert the simulation time to hours and minutes? Explain the mathematical operations used.
+    b) Describe the control structure used in the determineTrafficCondition method. Why is this structure suitable for this task?
+
+3. Light Duration Setting:
+    a) Explain the control structure used in the setGreenLightDuration method. What are the advantages of using this structure?
+    b) Compare and contrast the control structures used in setGreenLightDuration and setRedLightDuration. Why might different structures have been chosen for these similar tasks?
+
+4. Main Simulation Loop:
+    a) Identify and explain all the control structures used within the main method.
+    b) How does the program create a delay between each "minute" of the simulation? Why is exception handling used here?
+
+5. Code Organization:
+    a) How does the use of methods (like determineTrafficCondition, setGreenLightDuration, etc.) contribute to the organization and readability of the code?
+    b) Suggest one way the code could be further organized or improved using object-oriented programming concepts.
+
+6. Real-world Application:
+    a) How does this program reflect real-world traffic light operations? Provide examples of how it simulates actual traffic management.
+    b) What limitations does this simulation have compared to a real traffic light system? Suggest one additional feature that could make it more realistic.
+
+7. Control Structures Overview:
+    a) List all the control structures used in this program and briefly explain the purpose of each in the context of the traffic light simulation.
+    b) For each control structure you listed, explain why it was chosen over other potential options.
+
+8. Code Modification:
+    Propose and explain in detail how you would implement one of the following changes to the program, focusing on which control structures you would use and why:
+    - Allow user input to manually change traffic conditions.
+    - Implement a system to handle emergency vehicle priority.
+    - Add a pedestrian crossing feature that interrupts the normal light cycle.
+
+Submission Instructions:
+- Provide detailed explanations for each question.
+- Include code snippets where relevant to support your explanations.
+- Your answers should demonstrate a clear understanding of Java control structures and their application in solving real-world problems.
