@@ -61,4 +61,16 @@ public class TrafficLightSimulator {
         System.out.println("Yellow light for " + yellowDuration + " seconds");
         System.out.println("Red light for " + redDuration + " seconds");
     }
+
+    public static boolean emergencyVehiclePresent = false;
+
+    public static void handleEmergencyVehicle() {
+    if (emergencyVehiclePresent) {
+        System.out.println("Emergency vehicle detected! Switching to green light for emergency route.");
+        // Set green light duration longer or maintain green until the emergency vehicle has passed
+        simulateTrafficLight(120, 3, 15); // 2 minutes of green
+    } else {
+        simulateTrafficLight(setGreenLightDuration(determineTrafficCondition(0)), 3, setRedLightDuration(determineTrafficCondition(0)));
+        }
+    }
 }
